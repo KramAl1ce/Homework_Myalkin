@@ -23,7 +23,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.DLLTest">
+  <component name="RunManager" selected="JUnit.DLLTest.addTailTest">
     <configuration name="DLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DLLHomework" />
       <extension name="coverage">
@@ -50,6 +50,22 @@
       <option name="PACKAGE_NAME" value="DLLTests" />
       <option name="MAIN_CLASS_NAME" value="DLLTests.DLLTest" />
       <option name="METHOD_NAME" value="addHeadTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DLLTest.addTailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DLLHomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DLLTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DLLTests" />
+      <option name="MAIN_CLASS_NAME" value="DLLTests.DLLTest" />
+      <option name="METHOD_NAME" value="addTailTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DLLTest.addTailTest" />
         <item itemvalue="JUnit.DLLTest" />
         <item itemvalue="JUnit.DLLTest.getSizeIfFilled" />
         <item itemvalue="JUnit.DLLTest.addHeadTest" />
@@ -108,22 +125,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="728" height="167" key="GridCell.Tab.0.bottom" timestamp="1615155249592">
+    <state width="1322" height="167" key="GridCell.Tab.0.bottom" timestamp="1615156142017">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="728" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615155249592" />
-    <state width="728" height="167" key="GridCell.Tab.0.center" timestamp="1615155249592">
+    <state width="1322" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615156142017" />
+    <state width="1322" height="167" key="GridCell.Tab.0.center" timestamp="1615156142016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="728" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615155249592" />
-    <state width="728" height="167" key="GridCell.Tab.0.left" timestamp="1615155249591">
+    <state width="1322" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615156142016" />
+    <state width="1322" height="167" key="GridCell.Tab.0.left" timestamp="1615156142016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="728" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615155249591" />
-    <state width="728" height="167" key="GridCell.Tab.0.right" timestamp="1615155249592">
+    <state width="1322" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615156142016" />
+    <state width="1322" height="167" key="GridCell.Tab.0.right" timestamp="1615156142016">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="728" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615155249592" />
+    <state width="1322" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615156142016" />
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1615155973236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615155973236" />
+    <state width="1322" height="217" key="GridCell.Tab.1.center" timestamp="1615155973236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615155973236" />
+    <state width="1322" height="217" key="GridCell.Tab.1.left" timestamp="1615155973236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615155973236" />
+    <state width="1322" height="217" key="GridCell.Tab.1.right" timestamp="1615155973236">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615155973236" />
     <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615148597261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
