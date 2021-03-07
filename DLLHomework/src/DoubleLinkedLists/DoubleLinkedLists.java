@@ -18,13 +18,25 @@ public class DoubleLinkedLists<L> {
     }
 
     public void addHead(L element) {
-        DoubleLinkedListElement<L> newElement = new DoubleLinkedListElement<L>(element);
+        DoubleLinkedListElement<L> newElement = new DoubleLinkedListElement<>(element);
         newElement.next = head;
         newElement.previous = null;
         if (isEmpty()) head = tail = newElement;
         else  {
             head.previous = newElement;
             head = newElement;
+            size = size + 1;
+        }
+    }
+
+    public void addTail(L element) {
+        DoubleLinkedListElement<L> newElement = new DoubleLinkedListElement<>(element);
+        newElement.next = null;
+        newElement.previous = tail;
+        if (isEmpty())  head = tail = newElement;
+        else {
+            tail.next = newElement;
+            tail = newElement;
             size = size + 1;
         }
     }
@@ -47,17 +59,6 @@ public class DoubleLinkedLists<L> {
         return size;
     }
 
-    public void addTail(L element) {
-        DoubleLinkedListElement<L> newElement = new DoubleLinkedListElement(element);
-        newElement.next = null;
-        newElement.previous = tail;
-        if (isEmpty())  head = tail = newElement;
-        else {
-            tail.next = newElement;
-            tail = newElement;
-            size = size + 1;
-        }
-    }
 
     public void getTail() {
     }
