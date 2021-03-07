@@ -1,8 +1,8 @@
 package DoubleLinkedLists;
 
 public class DoubleLinkedLists<L> {
-    private DoubleLinkedListElement head;
-    private DoubleLinkedListElement tail;
+    private DoubleLinkedListElement<L> head;
+    private DoubleLinkedListElement<L> tail;
     int size = 0;
 
     public static String outOfRangeError = "вне диапазона";
@@ -46,13 +46,13 @@ public class DoubleLinkedLists<L> {
             throw new RuntimeException(outOfRangeError);
         }
 
-        DoubleLinkedListElement searcher = head;
+        DoubleLinkedListElement<L> searcher = head;
 
         for (int currValue = 0; currValue < number; currValue++) {
             searcher = searcher.getNextElement();
         }
 
-        return (L) searcher.data;
+        return searcher.data;
     }
 
     public int getSize() {
