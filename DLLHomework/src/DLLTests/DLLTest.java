@@ -6,29 +6,29 @@ import org.junit.jupiter.api.Assertions;
 public class DLLTest extends Assertions {
     @Test
     public void addHeadTest() {
-        DoubleLinkedLists DoubleLinkedLists = new DoubleLinkedLists();
+        DoubleLinkedLists<Integer> DLL = new DoubleLinkedLists<Integer>();
 
-        DoubleLinkedLists.addHead(666);
+        DLL.addHead(666);
 
-        assertEquals(666, DoubleLinkedLists.getValue(0));
+        assertEquals(666, DLL.getValue(0));
     }
 
     @Test
     public void addTailTest() {
-        DoubleLinkedLists DLL = new DoubleLinkedLists();
+        DoubleLinkedLists<Integer> DLL = new DoubleLinkedLists<Integer>();
 
         DLL.addTail(0);
-        DLL.addTail(1);
-        DLL.addTail(2);
-        DLL.addTail(3);
+        DLL.addTail(33);
+        DLL.addTail(48);
+        DLL.addTail(38);
 
-//        assertEquals(3, DoubleLinkedLists.getValue(4));
+        assertEquals(38, DLL.getValue(3));
 
     }
 
     @Test
     public void getSizeIfEmpty() {
-        DoubleLinkedLists DLL = new DoubleLinkedLists();
+        DoubleLinkedLists<Integer> DLL = new DoubleLinkedLists<Integer>();
 
         int actSize = DLL.getSize();
         assertEquals(0, actSize);
@@ -36,7 +36,7 @@ public class DLLTest extends Assertions {
 
     @Test
     public void getSizeIfFilled() {
-        DoubleLinkedLists DLL= new DoubleLinkedLists();
+        DoubleLinkedLists<Integer> DLL= new DoubleLinkedLists<Integer>();
 
 
         DLL.addTail(3);
