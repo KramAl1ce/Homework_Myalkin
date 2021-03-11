@@ -67,11 +67,11 @@ public class DoubleLinkedLists<L> {
     }
 
 
-    public DoubleLinkedListElement<L> getTail(L element) {
+    public DoubleLinkedListElement<L> getTail() {
         return tail;
     }
 
-    public DoubleLinkedListElement<L> getHead(L element) {
+    public DoubleLinkedListElement<L> getHead() {
         return head;
     }
 }

@@ -8,7 +8,7 @@ public class StackDLL{
 
         public boolean isEmpty() {
             return DLL.isEmpty();
-    }
+            }
 
         public void pushIn(int data) {
             DLL.addTail(data);
@@ -20,4 +20,12 @@ public class StackDLL{
             count = count - 1;
         }
 
+        public int getSize() {
+            return  count;
+        }
+
+
+        public Object peek(){
+            return DLL.getHead();
+        }
 }
