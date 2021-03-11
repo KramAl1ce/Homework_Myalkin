@@ -7,7 +7,7 @@ public class DoubleLinkedLists<L> {
 
     public static String outOfRangeError = "вне диапазона";
     public static String elementNotFoundError = "элемент отсутствует";
-
+    public static String canNotPopOutError = "предыдущий элемент отсутствует";
 
     public DoubleLinkedLists() {
         head = tail = null;
@@ -41,6 +41,13 @@ public class DoubleLinkedLists<L> {
         }
     }
 
+    public void popOut() {
+        if (tail == null) {
+            throw new RuntimeException(canNotPopOutError);
+        }
+        tail = tail.previous;
+    }
+
     public L getValue(int number) {
         if (number<0 || number > size) {
             throw new RuntimeException(outOfRangeError);
@@ -60,10 +67,11 @@ public class DoubleLinkedLists<L> {
     }
 
 
-    public void getTail() {
+    public DoubleLinkedListElement<L> getTail(L element) {
+        return tail;
     }
 
-    public void getHead(L element) {
-
+    public DoubleLinkedListElement<L> getHead(L element) {
+        return head;
     }
 }
