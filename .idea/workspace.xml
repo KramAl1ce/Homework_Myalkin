@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -22,6 +29,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="JUnit.DLLTest">
     <configuration name="DLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -157,13 +165,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615230651724" />
+    <state x="368" y="0" key="SettingsEditor" timestamp="1615463816957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="368" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615463816957" />
     <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615148597261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1615148597261" />
-    <state x="65" y="0" key="new project wizard" timestamp="1615148369826">
+    <state x="65" y="0" key="new project wizard" timestamp="1615463355795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1615148369826" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1615463355795" />
   </component>
 </project>
