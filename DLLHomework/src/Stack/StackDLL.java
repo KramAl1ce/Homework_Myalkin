@@ -16,7 +16,8 @@ public class StackDLL{
         }
 
         public void popOut(int data) {
-
+            DLL.popOut();
+            count = count - 1;
         }
 
 }
