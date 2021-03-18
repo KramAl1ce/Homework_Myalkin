@@ -67,4 +67,17 @@ public class DLLTest extends Assertions {
         int actSize = DLL.getSize();
         assertEquals(3, actSize);
     }
+
+    @Test
+    public void printListTest() {
+        DoubleLinkedLists<Integer> DLL = new DoubleLinkedLists<Integer>();
+
+        DLL.addTail(17);
+        DLL.addTail(22);
+        DLL.addTail(385);
+        DLL.addTail(14);
+        DLL.addTail(0);
+
+        DLL.printList();
+    }
 }
