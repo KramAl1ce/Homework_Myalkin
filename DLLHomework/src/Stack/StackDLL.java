@@ -21,7 +21,7 @@ public class StackDLL{
         }
 
         public int getSize() {
-            return  count;
+            return count;
         }
 
 
@@ -29,5 +29,7 @@ public class StackDLL{
             return SDLL.getHead().getData();
         }
 
-
+        public void printStack() {
+            SDLL.printList();
+        }
 }

@@ -84,7 +84,6 @@ public class DoubleLinkedLists<L> {
 
         counter.setNextEl(head.getNextEl());
 
-        System.out.print("Элементы списка: ");
         while (counter.getNextEl() != null) {
             System.out.print(counter.getData() + ", ");
             counter = counter.getNextEl();
