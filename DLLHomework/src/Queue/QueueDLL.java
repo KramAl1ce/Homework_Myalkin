@@ -19,14 +19,19 @@ public class QueueDLL {
         size = size + 1;
     }
 
-    public void dequeue(int data) {
-        DoubleLinkedListElement element = new QDLL.getElementByNumber(data);
+//    public void dequeue() {
+//        DoubleLinkedListElement element = new DoubleLinkedListElement();
+//
+//        QDLL.setElementByNumber(0, element);
+//        size--;
+//    }
+//    *не понятно почему, но getElementByNumber не видится системой, считается несуществующим
+//    странно, особенно при условии полной работы setElementByNumber*
 
-        QDLL.setElementByNumber(0, element);
-        size--;
-    }
 
     public void printAll() {
         QDLL.printAll();
     }
+
 }
+

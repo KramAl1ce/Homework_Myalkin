@@ -69,14 +69,26 @@ public class DoubleLinkedLists<L> {
         return size;
     }
 
-    public void setElementByNumber(int number) {
+    public DoubleLinkedListElement getElementByNumber(int number) {
+        if  (number < 0 || number > size) {
+            throw new RuntimeException(outOfRangeError);
+        }
+        DoubleLinkedListElement counter = head;
+
+        for (int currNumber = 0; currNumber < number; currNumber++) {
+            counter = counter.getNextEl();
+        }
+        return counter;
+    }
+
+    public void setElementByNumber(int number, DoubleLinkedListElement element) {
         if (number < 0 || number > size) {
             throw new RuntimeException(outOfRangeError);
         }
 
             DoubleLinkedListElement counter = head;
 
-            for(int currValue = 0; currValue < number; currValue++) {
+            for(int currNumber = 0; currNumber < number; currNumber++) {
                 counter = counter.getNextEl();
             }
 
@@ -88,6 +100,7 @@ public class DoubleLinkedLists<L> {
             if(counter.next == null) {
                  tail = counter;
             }
+            counter.previous.next = element;
     }
 
     public DoubleLinkedListElement<L> getTail() { return tail; }
@@ -110,4 +123,20 @@ public class DoubleLinkedLists<L> {
         }
         System.out.print(counter.getData());
     }
+
+    public void printAll() {
+        if (isEmpty()) {
+            throw new RuntimeException(listIsEmptyError);
+        }
+
+        DoubleLinkedListElement iterator = head;
+        iterator.setNextEl(head.getNextEl());
+
+        while (iterator.getNextEl() != null) {
+            System.out.print(iterator.getData() + " ");
+            iterator = iterator.getNextEl();
+        }
+        System.out.println(iterator.getData());
+    }
+
 }

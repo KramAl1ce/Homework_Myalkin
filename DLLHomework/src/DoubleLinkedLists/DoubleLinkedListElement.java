@@ -20,7 +20,7 @@ package DoubleLinkedLists;
             this.next = next;
         }
 
-        public void setPrevEl() {
+        public void setPrevEl(DoubleLinkedListElement previous) {
             this.previous = previous;
         }
 
