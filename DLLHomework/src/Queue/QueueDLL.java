@@ -3,7 +3,7 @@ package Queue;
 import DoubleLinkedLists.*;
 
 public class QueueDLL {
-    DoubleLinkedLists<Integer> QDLL = new DoubleLinkedLists<Integer>();
+    DoubleLinkedLists QDLL = new DoubleLinkedLists();
     int size = 0;
 
     public int getSize() {
@@ -19,7 +19,14 @@ public class QueueDLL {
         size = size + 1;
     }
 
-    public void dequeue() {
+    public void dequeue(int data) {
+        DoubleLinkedListElement element = new QDLL.getElementByNumber(data);
 
+        QDLL.setElementByNumber(0, element);
+        size--;
+    }
+
+    public void printAll() {
+        QDLL.printAll();
     }
 }
