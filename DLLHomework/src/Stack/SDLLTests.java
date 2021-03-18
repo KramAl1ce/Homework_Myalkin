@@ -9,8 +9,6 @@ public class SDLLTests extends Assertions {
     public void peekTest() {
         StackDLL SDLL = new StackDLL();
 
-        SDLL.pushIn(1);
-
         assertEquals(1, SDLL.peek());
     }
 

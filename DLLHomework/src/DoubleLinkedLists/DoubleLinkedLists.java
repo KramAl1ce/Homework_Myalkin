@@ -52,14 +52,14 @@ public class DoubleLinkedLists<L> {
     }
 
     public L getValue(int number) {
-        if (number<0 || number > size) {
+        if (number < 0 || number > size) {
             throw new RuntimeException(outOfRangeError);
         }
 
         DoubleLinkedListElement<L> searcher = head;
 
         for (int currValue = 0; currValue < number; currValue++) {
-            searcher = searcher.getNextElement();
+            searcher = searcher.getNextEl();
         }
 
         return searcher.data;
@@ -69,6 +69,26 @@ public class DoubleLinkedLists<L> {
         return size;
     }
 
+    public void setElementByNumber(int number) {
+        if (number < 0 || number > size) {
+            throw new RuntimeException(outOfRangeError);
+        }
+
+            DoubleLinkedListElement counter = head;
+
+            for(int currValue = 0; currValue < number; currValue++) {
+                counter = counter.getNextEl();
+            }
+
+            if(counter.previous == null) {
+                head = counter.next;
+                return;
+            }
+
+            if(counter.next == null) {
+                 tail = counter;
+            }
+    }
 
     public DoubleLinkedListElement<L> getTail() { return tail; }
 
