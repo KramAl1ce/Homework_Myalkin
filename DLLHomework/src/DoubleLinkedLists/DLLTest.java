@@ -1,4 +1,4 @@
-package DLLTests;
+package DoubleLinkedLists;
 import DoubleLinkedLists.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
