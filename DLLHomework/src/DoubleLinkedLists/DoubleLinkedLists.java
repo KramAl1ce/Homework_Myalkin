@@ -10,6 +10,7 @@ public class DoubleLinkedLists<L> {
     public static String outOfRangeError = "вне диапазона";
     public static String elementNotFoundError = "элемент отсутствует";
     public static String canNotPopOutError = "предыдущий элемент отсутствует";
+    public static String listIsEmptyError = "список пустой";
 
     public DoubleLinkedLists() {
         head = tail = null;
@@ -73,5 +74,21 @@ public class DoubleLinkedLists<L> {
 
     public DoubleLinkedListElement<L> getHead() {
         return head;
+    }
+
+    public void printList() {
+        if (isEmpty()) {
+            throw new RuntimeException(listIsEmptyError);
+        }
+        DoubleLinkedListElement counter = head;
+
+        counter.setNextEl(head.getNextEl());
+
+        System.out.print("Элементы списка: ");
+        while (counter.getNextEl() != null) {
+            System.out.print(counter.getData() + ", ");
+            counter = counter.getNextEl();
+        }
+        System.out.print(counter.getData());
     }
 }
