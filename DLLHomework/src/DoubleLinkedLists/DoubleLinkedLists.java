@@ -69,6 +69,24 @@ public class DoubleLinkedLists<L> {
         return size;
     }
 
+    public void setElementByNumber(int number, DoubleLinkedListElement element){
+        if (number < 0 || number > size){
+            throw new RuntimeException(outOfRangeError);
+        }
+        DoubleLinkedListElement counter = head;
+        for (int currNumber = 0; currNumber < number; currNumber++) {
+            counter = counter.getNextElement();
+        }
+        if (counter.previous == null){
+            head = counter.next;
+            return;
+        }
+        if (counter.next == null){
+            tail = counter;
+        }
+        counter.previous.next = element;
+    }
+
     public DoubleLinkedListElement getElementByNumber(int number) {
         if  (number < 0 || number > size) {
             throw new RuntimeException(outOfRangeError);
@@ -79,28 +97,6 @@ public class DoubleLinkedLists<L> {
             counter = counter.getNextEl();
         }
         return counter;
-    }
-
-    public void setElementByNumber(int number, DoubleLinkedListElement element) {
-        if (number < 0 || number > size) {
-            throw new RuntimeException(outOfRangeError);
-        }
-
-            DoubleLinkedListElement counter = head;
-
-            for(int currNumber = 0; currNumber < number; currNumber++) {
-                counter = counter.getNextEl();
-            }
-
-            if(counter.previous == null) {
-                head = counter.next;
-                return;
-            }
-
-            if(counter.next == null) {
-                 tail = counter;
-            }
-            counter.previous.next = element;
     }
 
     public DoubleLinkedListElement<L> getTail() { return tail; }

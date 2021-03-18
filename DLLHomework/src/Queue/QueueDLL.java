@@ -3,7 +3,8 @@ package Queue;
 import DoubleLinkedLists.*;
 
 public class QueueDLL {
-    DoubleLinkedLists QDLL = new DoubleLinkedLists();
+    DoubleLinkedLists<Integer> QDLL = new DoubleLinkedLists<Integer>();
+
     int size = 0;
 
     public int getSize() {
@@ -19,19 +20,16 @@ public class QueueDLL {
         size = size + 1;
     }
 
-//    public void dequeue() {
-//        DoubleLinkedListElement element = new DoubleLinkedListElement();
-//
-//        QDLL.setElementByNumber(0, element);
-//        size--;
-//    }
+    public void dequeue(){
+        DoubleLinkedListElement element = QDLL.getElementByNumber(1);
+        QDLL.setElementByNumber(0, element);
+        size--;
+    }
 //    *не понятно почему, но getElementByNumber не видится системой, считается несуществующим
 //    странно, особенно при условии полной работы setElementByNumber*
-
 
     public void printAll() {
         QDLL.printAll();
     }
-
 }
 

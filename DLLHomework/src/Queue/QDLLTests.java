@@ -32,17 +32,17 @@ public class QDLLTests extends Assertions {
         assertEquals(3, QDLL.getSize());
     }
 
-//    @Test
-//    public void dequeueTest() {
-//        QueueDLL QDLL = new QueueDLL();
-//
-//        QDLL.enqueue(333);
-//        QDLL.enqueue(65);
-//        QDLL.enqueue(85);
-//
-//        QDLL.dequeue();
-//
-//        assertEquals(65, QDLL.peek());
-//        assertEquals(2, QDLL.getSize());
-//    }
+    @Test
+    public void dequeueTest() {
+        QueueDLL QDLL = new QueueDLL();
+
+        QDLL.enqueue(333);
+        QDLL.enqueue(65);
+        QDLL.enqueue(85);
+
+        QDLL.dequeue();
+
+        assertEquals(65, QDLL.peek());
+        assertEquals(2, QDLL.getSize());
+    }
 }
