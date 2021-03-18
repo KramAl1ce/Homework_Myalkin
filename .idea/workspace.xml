@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -16,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1pRaHCaF5Lkc4Fvzqfo6barIx4S" />
   <component name="ProjectViewState">
@@ -28,74 +34,74 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../programming-HW" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="JUnit.SDLLTests.peek_data_validation">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="QDLL" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.QDLLTests.enqueueTest">
+    <configuration name="DLLTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DLLHomework" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="DoubleLinkedLists.DLLTest" />
+        <pattern testClass="Stack.SDLLTests" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DLLHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DLLTests.*" />
+          <option name="PATTERN" value="DoubleLinkedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DLLTests" />
-      <option name="MAIN_CLASS_NAME" value="DLLTests.DLLTest" />
+      <option name="PACKAGE_NAME" value="DoubleLinkedLists" />
+      <option name="MAIN_CLASS_NAME" value="DoubleLinkedLists.DLLTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DLLTest.addHeadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QDLLTests.dequeue_check_data" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DLLHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DLLTests.*" />
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DLLTests" />
-      <option name="MAIN_CLASS_NAME" value="DLLTests.DLLTest" />
-      <option name="METHOD_NAME" value="addHeadTest" />
+      <option name="PACKAGE_NAME" value="Queue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.QDLLTests" />
+      <option name="METHOD_NAME" value="dequeue_check_data" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DLLTest.addTailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QDLLTests.enqueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DLLHomework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DLLTests.*" />
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DLLTests" />
-      <option name="MAIN_CLASS_NAME" value="DLLTests.DLLTest" />
-      <option name="METHOD_NAME" value="addTailTest" />
+      <option name="PACKAGE_NAME" value="Queue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.QDLLTests" />
+      <option name="METHOD_NAME" value="enqueueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DLLTest.getSizeIfFilled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DLLHomework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DLLTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="DLLTests" />
-      <option name="MAIN_CLASS_NAME" value="DLLTests.DLLTest" />
-      <option name="METHOD_NAME" value="getSizeIfFilled" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SDLLTests.peek_data_validation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SDLLTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DLLHomework" />
       <extension name="coverage">
         <pattern>
@@ -105,19 +111,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="Stack" />
       <option name="MAIN_CLASS_NAME" value="Stack.SDLLTests" />
-      <option name="METHOD_NAME" value="peek_data_validation" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SDLLTests.peek_data_validation" />
+        <item itemvalue="JUnit.QDLLTests.enqueueTest" />
+        <item itemvalue="JUnit.QDLLTests.dequeue_check_data" />
         <item itemvalue="JUnit.DLLTest" />
-        <item itemvalue="JUnit.DLLTest.addTailTest" />
-        <item itemvalue="JUnit.DLLTest.getSizeIfFilled" />
-        <item itemvalue="JUnit.DLLTest.addHeadTest" />
+        <item itemvalue="JUnit.SDLLTests" />
+        <item itemvalue="JUnit.DLLTest and 1 more" />
       </list>
     </recent_temporary>
   </component>
@@ -133,22 +138,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="623" height="167" key="GridCell.Tab.0.bottom" timestamp="1615470452025">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1616104305413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616104305413" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1616096598573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616096598573" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616107449389">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="623" height="167" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615470452025" />
-    <state width="623" height="167" key="GridCell.Tab.0.center" timestamp="1615470452025">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616107449389" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616107449389">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="623" height="167" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615470452025" />
-    <state width="623" height="167" key="GridCell.Tab.0.left" timestamp="1615470452025">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616107449389" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616107449389">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="623" height="167" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615470452025" />
-    <state width="623" height="167" key="GridCell.Tab.0.right" timestamp="1615470452025">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616107449389" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616107449389">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="623" height="167" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615470452025" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616107449389" />
     <state width="1322" height="217" key="GridCell.Tab.1.bottom" timestamp="1615230651724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -165,10 +182,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="217" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615230651724" />
-    <state x="368" y="0" key="SettingsEditor" timestamp="1615463816957">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="517" y="0" key="SettingsEditor" timestamp="1616098881349">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615463816957" />
+    <state x="517" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616098881349" />
     <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615148597261">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -177,5 +195,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1615463355795" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616098854774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616098854774" />
   </component>
 </project>
