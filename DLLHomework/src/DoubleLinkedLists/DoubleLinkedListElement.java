@@ -15,4 +15,24 @@ package DoubleLinkedLists;
         public L getData() {
             return data;
         }
+
+        public void setNextEl(DoubleLinkedListElement next) {
+            this.next = next;
+        }
+
+        public void setPrevEl() {
+            this.previous = previous;
+        }
+
+        public DoubleLinkedListElement getNextEl() {
+            return next;
+        }
+
+        public DoubleLinkedListElement getPrevEl() {
+            return previous;
+        }
+
+        public void setData() {
+            this.data = data;
+        }
     }
