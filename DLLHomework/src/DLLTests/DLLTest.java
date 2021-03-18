@@ -1,9 +1,29 @@
 package DLLTests;
-import DoubleLinkedLists.DoubleLinkedLists;
+import DoubleLinkedLists.*;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
 public class DLLTest extends Assertions {
+    @Test
+    public void getHeadTest() {
+        DoubleLinkedLists<Integer> DLL = new DoubleLinkedLists<Integer>();
+
+        DLL.addTail(1);
+        DLL.addTail(17);
+
+        assertEquals(1, DLL.getHead().getData());
+    }
+
+    @Test
+    public void getTailTest() {
+        DoubleLinkedLists<Integer> DLL = new DoubleLinkedLists<Integer>();
+
+        DLL.addTail(1);
+        DLL.addTail(17);
+
+        assertEquals(17, DLL.getTail().getData());
+    }
+
     @Test
     public void addHeadTest() {
         DoubleLinkedLists<Integer> DLL = new DoubleLinkedLists<Integer>();

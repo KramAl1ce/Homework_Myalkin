@@ -1,5 +1,7 @@
 package DoubleLinkedLists;
 
+import java.util.DuplicateFormatFlagsException;
+
 public class DoubleLinkedLists<L> {
     private DoubleLinkedListElement<L> head;
     private DoubleLinkedListElement<L> tail;
@@ -18,7 +20,7 @@ public class DoubleLinkedLists<L> {
     }
 
     public void addHead(L element) {
-        DoubleLinkedListElement<L> newElement = new DoubleLinkedListElement<>(element);
+        DoubleLinkedListElement newElement = new DoubleLinkedListElement<>(element);
         newElement.next = head;
         newElement.previous = null;
         if (isEmpty()) head = tail = newElement;
@@ -67,9 +69,7 @@ public class DoubleLinkedLists<L> {
     }
 
 
-    public DoubleLinkedListElement<L> getTail() {
-        return tail;
-    }
+    public DoubleLinkedListElement<L> getTail() { return tail; }
 
     public DoubleLinkedListElement<L> getHead() {
         return head;
