@@ -48,18 +48,7 @@
       <recent name="QDLL" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QDLLTests.enqueueTest">
-    <configuration name="DLLTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DLLHomework" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="DoubleLinkedLists.DLLTest" />
-        <pattern testClass="Stack.SDLLTests" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QuadraticSortTest">
     <configuration name="DLLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DLLHomework" />
       <extension name="coverage">
@@ -107,6 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuadraticSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QSHomework" />
+      <option name="PACKAGE_NAME" value="QuadraticSort" />
+      <option name="MAIN_CLASS_NAME" value="QuadraticSort.QuadraticSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SDLLTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DLLHomework" />
       <extension name="coverage">
@@ -124,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QuadraticSortTest" />
         <item itemvalue="JUnit.QDLLTests.enqueueTest" />
         <item itemvalue="JUnit.QDLLTests.dequeue_check_data" />
         <item itemvalue="JUnit.DLLTest" />
         <item itemvalue="JUnit.SDLLTests" />
-        <item itemvalue="JUnit.DLLTest and 1 more" />
       </list>
     </recent_temporary>
   </component>
