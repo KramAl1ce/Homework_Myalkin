@@ -34,10 +34,13 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../programming-HW" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kidoj\IdeaProjects\Homework_Myalkin\DAHomework\src" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="QDLL" />
     </key>
@@ -191,13 +194,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1615148597261" />
-    <state x="65" y="0" key="new project wizard" timestamp="1615463355795">
+    <state x="65" y="0" key="new project wizard" timestamp="1616869674909">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1615463355795" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1616098854774">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1616869674909" />
+    <state x="443" y="158" width="672" height="475" key="search.everywhere.popup" timestamp="1616870314014">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="443" y="158" width="672" height="475" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616870314014" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616098854774" />
   </component>
 </project>
