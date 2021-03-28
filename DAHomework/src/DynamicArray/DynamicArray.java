@@ -43,7 +43,6 @@ public class DynamicArray<A> {
         return array.length;
     }
 
-    public void addData(A value) {                    //Task 2 complete
     public void addData(A value) {
         resize(array.length + 1);
         array[array.length - 1] = value;
