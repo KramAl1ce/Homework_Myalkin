@@ -1,5 +1,6 @@
 package DynamicArray;
 
+
 public class DynamicArray<A> {
     public A[] array;
     public int size = 0;
@@ -43,6 +44,7 @@ public class DynamicArray<A> {
     }
 
     public void addData(A value) {                    //Task 2 complete
+    public void addData(A value) {
         resize(array.length + 1);
         array[array.length - 1] = value;
     }
