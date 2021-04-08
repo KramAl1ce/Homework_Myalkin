@@ -142,10 +142,11 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="163" y="0" key="#Project_Structure" timestamp="1616875158802">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="229" y="0" key="#Project_Structure" timestamp="1617920124513">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1616875158802" />
+    <state x="229" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1617920124513" />
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1616104305413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,14 +196,16 @@
     </state>
     <state x="368" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1615463816957" />
     <state x="517" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616098881349" />
-    <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1616874211019">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="544" y="363" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1617920381427">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="387" y="254" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1616874211019" />
-    <state x="59" y="0" key="new project wizard" timestamp="1616875074868">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="544" y="363" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1617920381427" />
+    <state x="162" y="227" key="new project wizard" timestamp="1617920205046">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="59" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1616875074868" />
+    <state x="162" y="227" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1617920205046" />
     <state x="443" y="158" width="672" height="475" key="search.everywhere.popup" timestamp="1616870314014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
