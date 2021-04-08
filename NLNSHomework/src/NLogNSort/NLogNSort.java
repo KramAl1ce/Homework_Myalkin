@@ -24,8 +24,22 @@ public class NLogNSort {
         for (j = 0; j < e; j++)
             hdata[a + j] = Array[j];
     }
+    
+    public static void mergeSort(int[] data, int a1, int a2) {
+        if (a1 < a2) {
+            int a = (a1 + a2) / 2;
+            mergeSort(data, a1, a);
+            mergeSort(data, a + 1, a2);
+            merge(data, a1, a, a2);
+        }
+    }
 
     public void sort(int[] data)
     {
+        mergeSort(data, 0, data.length - 1);
+
+        for (int i = 0; i < data.length; i++) {
+            System.out.println(data[i] + ", ");
+        };
     }
 }
