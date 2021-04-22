@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BSTHomework/BSTHomework.iml" filepath="$PROJECT_DIR$/BSTHomework/BSTHomework.iml" />
       <module fileurl="file://$PROJECT_DIR$/DAHomework/DAHomework.iml" filepath="$PROJECT_DIR$/DAHomework/DAHomework.iml" />
       <module fileurl="file://$PROJECT_DIR$/DLLHomework/DLLHomework.iml" filepath="$PROJECT_DIR$/DLLHomework/DLLHomework.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Homework_Myalkin.iml" filepath="$PROJECT_DIR$/.idea/Homework_Myalkin.iml" />
