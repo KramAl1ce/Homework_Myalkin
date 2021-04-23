@@ -28,5 +28,5 @@ public class Node {
 
     public String getNum() {return num;}
 
-    
+
 }
