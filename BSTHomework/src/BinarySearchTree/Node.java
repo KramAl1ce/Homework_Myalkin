@@ -1,32 +1,23 @@
 package BinarySearchTree;
 
 public class Node {
-    String num;
+    String key;
     Node parNode;
     Node rightNode;
     Node leftNode;
 
     public Node() {
-        num = null;
+        key = null;
         parNode = null;
         rightNode = null;
         leftNode = null;
     }
 
-    public Node(String num) {
-        this.num = num;
+    public Node(String key) {
+        this.key = key;
         parNode =  null;
         leftNode = null;
         rightNode = null;
     }
-
-    public Node getParNode() {return parNode;}
-
-    public Node getLeftNode() {return  leftNode;}
-
-    public Node getRightNode() {return rightNode;}
-
-    public String getNum() {return num;}
-
 
 }
