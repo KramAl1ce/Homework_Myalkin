@@ -220,29 +220,6 @@ public class BinarySearchTreeTest {
     }
 
     @Test
-    public void deletionIfFound() {
-
-        BinarySearchTree tree = new BinarySearchTree("абвгдfgh");
-        tree.insert("абв");
-        tree.insert("абвd");
-        tree.insert("абвгдfghijk");
-        tree.insert("абвгдfghi");
-        tree.insert("ab");
-        tree.insert("абвгдёжзиклмноqrst");
-        tree.insert("абвгдёжзиклмноq");
-        tree.insert("абвгд");
-        tree.insert("a");
-        tree.insert("абвгдёжзиклмно");
-        tree.insert("абвгдёжзиклмноqr");
-
-        tree.delete(tree.search("абвгдёжзиклмнопр"));
-
-        String expected = "абвгдёжзиклмнопрст";
-        String actual = tree.getSuccessor(tree.search("абвгдёжзиклмноп")).getKey();
-        assertEquals(expected, actual);
-    }
-
-    @Test
     public void deletionIfNotFound() {
 
         BinarySearchTree tree = new BinarySearchTree("абвгдеёж");
@@ -260,7 +237,7 @@ public class BinarySearchTreeTest {
 
         tree.delete(tree.search("прст"));
 
-        String expected = "абвгдёжзиклмно";
+        String expected = "аб";
         String actual = tree.getSuccessor(tree.search("а")).getKey();
         assertEquals(expected, actual);
     }

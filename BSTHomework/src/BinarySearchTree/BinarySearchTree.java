@@ -38,7 +38,11 @@ public class BinarySearchTree {
     }
 
     public void delete(Node thisNode) {
-        Node HeadNode = deleteRec(thisNode);
+        if (thisNode == null) {
+            return;
+        }
+
+        deleteRec(thisNode);
     }
 
     public Node getMin() {
@@ -59,26 +63,40 @@ public class BinarySearchTree {
         return thisNode;
     }
 
-    private static Node insertRec(String key, Node thisNode) {
-        if (key.compareTo(thisNode.key) > 0) {
-            if (thisNode.rightNode == null) {
-                return insertRec(key, thisNode.rightNode);
+    private Node insertRec(String data, Node thisNode) {
+
+        if (thisNode.key == null) {
+            thisNode.key = data;
+            return thisNode;
+        }
+
+        boolean toRight = data.compareTo(thisNode.key) > 0;
+        boolean hasRightChild = thisNode.rightNode != null;
+        boolean hasLeftChild = thisNode.leftNode != null;
+
+        if (toRight) {
+
+            if (hasRightChild) {
+                return insertRec(data, thisNode.rightNode);
             } else {
-                thisNode.rightNode = new Node(key);
+
+                thisNode.rightNode = new Node(data);
                 thisNode.rightNode.parNode = thisNode;
                 return thisNode.rightNode;
             }
-        } else if (key.compareTo(thisNode.key) <= 0) {
-            if (thisNode.leftNode != null) {
-                return insertRec(key, thisNode.leftNode);
+        }
 
+        else {
+
+            if (hasLeftChild) {
+                return insertRec(data, thisNode.leftNode);
             } else {
-                thisNode.leftNode = new Node(key);
+
+                thisNode.leftNode = new Node(data);
                 thisNode.leftNode.parNode = thisNode;
                 return thisNode.leftNode;
             }
         }
-        return null;
     }
 
 //    private Node deleteRec(Node thisNode, Node thisNodeParent, Node thisNodeChild) {
